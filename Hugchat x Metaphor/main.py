@@ -8,7 +8,7 @@ from metaphor_python import Metaphor
 st.set_page_config(page_title="HugChat with Metaphor")
 
 # Define Metaphor API key
-METAPHOR_API_KEY = "1cd6d71b-e530-4ea3-bb18-e9599e641f66"  # Replace with your Metaphor API key
+METAPHOR_API_KEY = "API-KEY"  # Replace with your Metaphor API key
 with st.sidebar:
     st.title('🤗💬 HugChat x Metaphor')
     if ('EMAIL' in st.secrets) and ('PASS' in st.secrets):
